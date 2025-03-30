@@ -9,8 +9,8 @@ from sklearn.neighbors import NearestNeighbors
 @st.cache_data
 def load_data():
     # File paths for datasets
-    tourism_db_path = "D:/ML model minor/cleaned_tourism_db.csv"
-    attractions_path = "D:/ML model minor/tourism_attractions.csv"
+    tourism_db_path = "cleaned_tourism_db.csv"
+    attractions_path = "tourism_attractions.csv"
 
     # Load the datasets
     tourism_db = pd.read_csv(tourism_db_path)
